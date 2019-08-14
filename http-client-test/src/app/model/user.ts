@@ -1,6 +1,6 @@
 export class User {
   id: number = 0;
-  name: { first: string, last: string } = {
+  name: {first: string, last: string} = {
     first: '',
     last: ''
   }

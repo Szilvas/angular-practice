@@ -1,6 +1,62 @@
 {
   "user": [
     {
+      "id": 1,
+      "guid": "99d82648-a621-4272-bb03-9dfae4ce570f",
+      "isActive": true,
+      "balance": "$1,442.75",
+      "picture": "http://placehold.it/32x32",
+      "age": 25,
+      "eyeColor": "brown",
+      "name": {
+        "first": "Susana",
+        "last": "Spencer"
+      },
+      "company": "OVIUM",
+      "email": "susana.spencer@ovium.us",
+      "phone": "+1 (887) 447-2859",
+      "address": "575 Village Road, Bascom, Pennsylvania, 238",
+      "about": "Officia magna eiusmod occaecat magna enim sunt eiusmod irure ex cillum enim. Velit id labore reprehenderit irure nisi. Occaecat ad Lorem est ullamco sint aliquip qui duis ea anim. Cupidatat excepteur incididunt laboris adipisicing anim sunt voluptate pariatur aliquip nulla incididunt nostrud qui. Dolor dolore irure amet commodo consectetur sit amet deserunt. Ex quis officia magna culpa. Pariatur ipsum consectetur labore fugiat id mollit esse.",
+      "registered": "Monday, April 8, 2019 9:57 AM",
+      "latitude": "77.805747",
+      "longitude": "4.793616",
+      "tags": [
+        "eu",
+        "irure",
+        "nulla",
+        "in",
+        "ea"
+      ],
+      "range": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Downs Buckner"
+        },
+        {
+          "id": 1,
+          "name": "Richmond Bennett"
+        },
+        {
+          "id": 2,
+          "name": "Weber Moreno"
+        }
+      ],
+      "greeting": "Hello, Susana! You have 10 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
       "id": 2,
       "guid": "4305c061-5a48-44d5-a13d-b9df034bbb63",
       "isActive": true,
@@ -9,7 +65,7 @@
       "age": 33,
       "eyeColor": "blue",
       "name": {
-        "first": "Stronger",
+        "first": "Strong",
         "last": "Bird"
       },
       "company": "AQUACINE",
@@ -1739,7 +1795,7 @@
     {
       "id": 33,
       "guid": "e8c72045-7939-409c-ae6a-e89a8376cd62",
-      "isActive": true,
+      "isActive": false,
       "balance": "$3,511.83",
       "picture": "http://placehold.it/32x32",
       "age": 26,
