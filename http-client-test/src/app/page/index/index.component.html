@@ -1,0 +1,103 @@
+
+<br>
+ <div class="container container-fluid center">
+  <div class="row">
+    <div class="col-3">
+
+      <div class="card text-white bg-primary mb-3">
+        <div class="card-header">Összes felhasználó:  </div>
+        <div class="card-body">
+                <p class="card-text">Teljes létszám: <span class="badge badge-danger">{{userNumber}}</span> </p>
+        </div>
+        <div class="card-footer"></div>
+      </div>
+
+    </div>
+    <div class="col-3">
+
+      <div class="card text-white bg-primary mb-3">
+        <div class="card-header">Aktív felhasználók</div>
+        <div class="card-body">
+          <p class="card-text">Aktív userek száma: <span class="badge badge-danger">{{ activeUsers }}</span></p>
+                  </div>
+        <div class="card-footer"></div>
+      </div>
+
+    </div>
+    <div class="col-3">
+
+      <div class="card text-white bg-primary mb-3">
+        <div class="card-header"> Inaktív felhasználók</div>
+        <div class="card-body">
+          <p class="card-text">Inaktív userek száma: <span class="badge badge-danger">{{ inactiveUsers }}</span> </p>
+          
+        </div>
+        <div class="card-footer"></div>
+      </div>
+
+    </div>
+    <div class="col-3">
+
+      <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+        <div class="card-header">Egyenleg: </div>
+        <div class="card-body">
+          <p class="card-text">A felhasználók egyenlege: <span class="badge badge-success"> {{ totalBalance | currency:"USD" }}</span></p>
+          
+        </div>
+        <div class="card-footer"></div>
+      </div>
+
+    </div>
+    <br>
+
+   
+        <div class="col-3">
+    
+          <div class="card text-white bg-warning mb-3" style="max-width: 20rem;">
+            <div class="card-header">Alma kedvelők: </div>
+            <div class="card-body">
+              <p class="card-text">Almát szeretik: <span class="badge badge-danger">{{ appleUsers }}</span></p>
+              
+              
+            </div>
+            <div class="card-footer"><img src="https://img.icons8.com/color/48/000000/apple.png"></div>
+          </div>
+        </div>
+        <div class="col-3">
+    
+          <div class="card text-white bg-warning mb-3" style="max-width: 20rem;">
+            <div class="card-header">Eper kedvelők: </div>
+            <div class="card-body">
+              <p class="card-text">Epret szeretik:  <span class="badge badge-danger">{{ strawberryUsers }}</span></p>
+              
+              
+            </div>
+            <div class="card-footer"><img src="https://img.icons8.com/color/48/000000/strawberry.png"></div>
+          </div>
+        </div>
+        <div class="col-3">
+    
+          <div class="card text-white bg-warning mb-3" style="max-width: 20rem;">
+            <div class="card-header">Banán kedvelők: </div>
+            <div class="card-body">
+              
+              <p class="card-text">Banánt szeretik: <span class="badge badge-danger"> {{ bananaUsers }}</span></p>
+              
+              
+            </div>
+            <div class="card-footer"><img src="https://img.icons8.com/color/48/000000/banana.png"></div>
+          </div>
+        </div>
+   </div>
+   
+  <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated"
+             role="progressbar"
+             aria-valuenow="75"
+             aria-valuemin="0"
+             aria-valuemax="100"
+             [ngStyle]="{'width.%': appleUsers}"></div>
+      </div>
+  </div>
+
+  
